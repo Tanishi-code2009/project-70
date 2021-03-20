@@ -1,0 +1,82 @@
+.article:hover {
+    color: crimson;
+}
+
+.my_nav_bar {
+    position: sticky;
+    top: 0;
+    z-index: 9999;
+}
+
+
+#aboutschool iframe {
+    width: 100%;
+}
+
+
+.gmap_canvas {
+    float: left;
+
+
+    width: 50%;
+    padding-left: 30px;
+}
+
+.details {
+    float: left;
+    width: 50%;
+}
+
+.contact_1 {
+    float: left;
+    width: 50%;
+}
+
+.row::after{
+    content:"";
+    clear: both;
+    display: :table;
+}
+
+.travel_mainDiv{
+    float:left;
+    width:33.33%;
+    padding:5px;
+    border:1px solid #c7c7c7;
+}
+
+.travel_mainDiv img{
+    width:100%;
+    height:300px;
+    
+}
+
+.travel_mainDiv hr{
+    width:100%;
+}
+
+.travel_mainDiv h5, .travel_mainDiv p{
+    margin-left: 20px;
+}
+
+
+.movie_head {
+    font-size: 20px;
+    padding: 6px 22px;
+    border-radius: 10px;
+    margin-bottom: 15px;
+    width: 100%;
+    display: inline-block;
+}
+
+.movie_head i {
+    float: right;
+}
+
+.movie_text span {
+    color: #ff7700;
+}
+#achievementsID{
+    padding-bottom: 10px;
+}
+
